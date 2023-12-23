@@ -1,0 +1,24 @@
+.wrapper{
+    border: 3px solid black;
+}
+.container{
+    border: 3px solid black;
+    
+}
+
+.div1{
+    border: 1px solid black;
+    height: 330px;
+    width: 700px;
+}
+
+.box2{
+    height: 50px;
+    border: 3px solid black;
+}
+
+.box3{
+    height: 25px;
+    border: 3px solid black;
+    width: 700px;
+}

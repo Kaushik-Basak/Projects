@@ -1,0 +1,35 @@
+.container{
+    border: 1px solid red;
+    background-color: yellow;
+    height: 600px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 30px 1fr 30px;
+    grid-template-columns: 100px 400px;
+    gap: 5px;
+    grid-template-areas: 
+    "hd hd"
+    "slide main"
+    "ft ft";
+}
+
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+}
+
+#header{
+    grid-area: hd;
+}
+
+#slide{
+    grid-area: slide;
+}
+
+#content{
+    grid-area: main;
+}
+
+#footer{
+    grid-area: ft;
+}
